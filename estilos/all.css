@@ -1,0 +1,1468 @@
+/*TOTAL DEL DOC > 1920 PX ---------------------------------------- */
+
+@media screen and (min-width: 1920px) {
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	section {
+		background-color: black;
+		color: grey;
+	}
+
+	/*NAV - INICIO*/
+	
+	.menu {
+		display: none;}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #202020;
+		height: 70px;
+		font-size: 20px;
+	}
+
+	.nav ul {
+		display: flex;
+
+	}
+
+	.nav a {
+		padding: 35px;
+		color: white;
+	}
+
+	.nav a:hover {
+		color: gray;
+		transition: 0.3s;
+
+	}
+
+	/*NAV - FINAL*/
+
+	/*FOOTER - INICIO*/
+
+	.footer {
+		display: flex;
+		background-color: #202020;
+		flex-direction: column;
+	}
+
+	.footer a {
+		color: white;
+		padding: 5px;
+	}
+
+	.footer a:hover {
+		color: gray;
+		transition: 0.3s;
+	}
+
+	.footer__sections {
+		display: flex;
+		justify-content: space-around;
+		color: white;
+	}
+
+	.footer__sections__secciones {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__deinteres {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__contacto {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.banner_footer img {
+		width: 100%;
+	}
+
+	.iconos {
+		display: flex;
+	}
+
+	.iconos i {
+		padding: 20px 20px 0 0;
+		font-size: 35px;
+	}
+
+	.footer__copyright {
+		margin-top: 15px;
+		padding: 15px;
+		font-size: 12px;
+		background-color: #000;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*FOOTER - FINAL*/
+
+	/*INDEX - INICIO*/
+
+	.banner_index img {
+		width: 100%;
+		height: 70%;
+	}
+
+	.parrafo_inicio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 50px 15% 0 15%;
+
+	}
+
+	.parrafo_inicio div img {
+		height: 600px;
+		width: 900px;
+	}
+
+	.parrafo_inicio div p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		padding: 10px
+	}
+
+	.desactivado b {
+		text-align: center;
+		color: orange;
+	}
+
+	/*INDEX - FINAL*/
+
+	/*ADOPCIONES - INICIO*/
+
+	.section_adopciones {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.adopciones_top {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.adopciones_top p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		margin: 0 0 0 0;
+		padding: 10px;
+	}
+
+	.adopciones_bottom {
+		display: flex;
+		justify-content: space-around;
+		align-content: top;
+		margin: 0 15% 0 15%;
+	}
+
+
+	.form-container {
+		width: 500px;
+		padding: 10px;
+		margin: 10px 10px 10px 0;
+	}
+
+	.termcond {
+		width: 50%;
+		width: 900px;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	.termcond b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+	}
+
+	.form-container b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+		margin-left: 10px;
+		padding-left: 10px;
+	}
+
+	.termcond p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.form {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	.choose {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 150px 0 150px;
+	}
+
+	.form input {
+		font-size: 18px;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		color: white;
+	}
+
+	select {
+		font-size: 18px;
+		color: white;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		margin: 10px;
+		padding: 10px;
+	}
+
+	option {
+		color: grey;
+		background-color: black;
+	}
+
+	.form input:focus {
+		outline: none;
+	}
+
+	::placeholder {
+		color: gray;
+	}
+
+	.form label {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form span {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form select {
+		margin: 10px;
+		border-radius: 5px;
+	}
+
+	#submit {
+		font-size: 18px;
+		margin-top: 70px;
+		border: 1px solid darkgrey;
+		color: grey;
+	}
+
+	#submit:hover {
+		border: 1px solid white;
+		color: white;
+	}
+
+	.section_adopciones a {
+		color: lightgrey;
+	}
+
+	.section_adopciones a:hover {
+		color: white;
+		transition: 0.1s
+	}
+
+	/*ADOPCIONES - FINAL*/
+
+	/*CUIDALOS - INICIO*/
+
+	.section_cuidalos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.castracion {
+		display: flex;
+		flex-direction: column;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.section_cuidalos p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.section_cuidalos b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+	}
+
+	.cerramientos {
+		display: flex;
+		flex-direction: column;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.iframe1 {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+
+	}
+
+	.iframe1 iframe {
+		float: right;
+		margin-left: 35px;
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+
+	.iframe2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-content: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.iframe2 iframe {
+		margin: 20px;
+	}
+
+	/*CUIDALOS - FINAL*/
+
+	/*DONACIONES - INICIO*/
+
+	.section_donaciones {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cuenta {
+		margin: 60px 15% 20px 15%;
+	}
+
+	.donacion {
+		margin: 50px 15% 20px 15%;
+	}
+
+	.cuenta p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.cuenta b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+	}
+
+	.donacion p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.precios {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.precios img {
+		height: 300px;
+		width: 300px;
+		margin: 30px;
+	}
+
+	/*DONACIONES - FINAL*/
+
+	/*CANDIDATOS - INICIO*/
+
+	.section_candidatos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-center;
+		justify-content: center;
+		padding: 40px 15% 40px 15%;
+
+	}
+
+	.tarjeta {
+		margin: 20px;
+		padding: 0;
+		width: 400px;
+		display: flex;
+		flex-direction: row;
+		background-color: black;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+
+	.tarjeta img {
+		height: 150px;
+		width: 150px;
+		margin: 15px;
+		border-radius: 10px;
+	}
+
+	.info {
+		margin: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		color: white;
+	}
+
+	.info b {
+		font-size: 20px;
+	}
+
+	.info p {
+		font-size: 15px;
+		line-height: 2;
+	}
+
+	/*CANDIDATOS - FINAL*/
+
+	.construccion {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/*TOTAL DEL DOC 1200 a 1920 PX ---------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	section {
+		background-color: black;
+		color: grey;
+	}
+
+	/*NAV - INICIO*/
+
+	.menu {
+		display: none;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #202020;
+		height: 70px;
+		font-size: 20px;
+	}
+
+	.nav ul {
+		display: flex;
+
+	}
+
+	.nav a {
+		padding: 35px;
+		color: white;
+	}
+
+	.nav a:hover {
+		color: gray;
+		transition: 0.3s;
+
+	}
+
+	/*NAV - FINAL*/
+
+	/*FOOTER - INICIO*/
+
+	.footer {
+		display: flex;
+		background-color: #202020;
+		flex-direction: column;
+	}
+
+	.footer a {
+		color: white;
+		padding: 5px;
+	}
+
+	.footer a:hover {
+		color: gray;
+		transition: 0.3s;
+	}
+
+	.footer__sections {
+		display: flex;
+		justify-content: space-around;
+		color: white;
+	}
+
+	.footer__sections__secciones {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__deinteres {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__contacto {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.banner_footer img {
+		width: 100%;
+	}
+
+	.iconos {
+		display: flex;
+	}
+
+	.iconos i {
+		padding: 20px 20px 0 0;
+		font-size: 35px;
+	}
+
+	.footer__copyright {
+		margin-top: 15px;
+		padding: 15px;
+		font-size: 12px;
+		background-color: #000;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*FOOTER - FINAL*/
+
+	/*INDEX - INICIO*/
+
+	.banner_index img {
+		width: 100%;
+		height: 70%;
+	}
+
+	.parrafo_inicio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 50px 15% 0 15%;
+
+	}
+
+	.parrafo_inicio div img {
+		height: 600px;
+		width: 900px;
+	}
+
+	.parrafo_inicio div p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		padding: 10px
+	}
+
+	.desactivado b {
+		text-align: center;
+		color: orange;
+	}
+
+	/*INDEX - FINAL*/
+
+	/*ADOPCIONES - INICIO*/
+
+	.section_adopciones {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.adopciones_top {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.adopciones_top p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		margin: 0 0 0 0;
+		padding: 10px;
+	}
+
+	.adopciones_bottom {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: top;
+		margin: 0 15% 0 15%;
+	}
+
+
+	.form-container {
+		width: 500px;
+		padding: 10px;
+		margin: 10px 10px 10px -5px;
+	}
+
+	.termcond {
+		width: 50%;
+		width: 900px;
+		padding: 10px;
+		margin: 10px 10px 10px -5px;
+	}
+
+	.termcond b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+		margin-left: 5px;
+	}
+
+	.form-container b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+		margin-left: 5px;
+	}
+
+	.termcond p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.form {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	.choose {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 150px 0 150px;
+	}
+
+	.form input {
+		font-size: 18px;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		color: white;
+	}
+
+	select {
+		font-size: 18px;
+		color: white;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		margin: 10px;
+		padding: 10px;
+	}
+
+	option {
+		color: grey;
+		background-color: black;
+	}
+
+	.form input:focus {
+		outline: none;
+	}
+
+	::placeholder {
+		color: gray;
+	}
+
+	.form label {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form span {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form select {
+		margin: 10px;
+		border-radius: 5px;
+	}
+
+	#submit {
+		font-size: 18px;
+		margin-top: 70px;
+		border: 1px solid darkgrey;
+		color: grey;
+	}
+
+	#submit:hover {
+		border: 1px solid white;
+		color: white;
+	}
+
+	.section_adopciones a {
+		color: lightgrey;
+	}
+
+	.section_adopciones a:hover {
+		color: white;
+		transition: 0.1s
+	}
+
+	/*ADOPCIONES - FINAL*/
+
+	/*CUIDALOS - INICIO*/
+
+	.section_cuidalos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.castracion {
+		display: flex;
+		flex-direction: column;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.section_cuidalos p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.section_cuidalos b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+	}
+
+	.cerramientos {
+		display: flex;
+		flex-direction: column;
+		margin: 60px 15% 20px 15%;
+	}
+
+	.iframe1 {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+
+	}
+
+	.iframe1 iframe {
+		float: right;
+		margin-left: 35px;
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+
+	.iframe2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-content: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.iframe2 iframe {
+		margin: 20px;
+	}
+
+	/*CUIDALOS - FINAL*/
+
+	/*DONACIONES - INICIO*/
+
+	.section_donaciones {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cuenta {
+		margin: 60px 15% 20px 15%;
+	}
+
+	.donacion {
+		margin: 50px 15% 20px 15%;
+	}
+
+	.cuenta p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.cuenta b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 30px;
+	}
+
+	.donacion p {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.precios {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.precios img {
+		height: 250px;
+		width: 250px;
+		margin: 25px;
+	}
+
+	/*DONACIONES - FINAL*/
+
+	/*CANDIDATOS - INICIO*/
+
+	.section_candidatos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-center;
+		justify-content: center;
+		padding: 40px 15% 40px 15%;
+	}
+
+	.tarjeta {
+		margin: 20px;
+		padding: 0;
+		width: 400px;
+		display: flex;
+		flex-direction: row;
+		background-color: black;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+
+	.tarjeta img {
+		height: 150px;
+		width: 150px;
+		margin: 15px;
+		border-radius: 10px;
+	}
+
+	.info {
+		margin: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		color: white;
+	}
+
+	.info b {
+		font-size: 20px;
+	}
+
+	.info p {
+		font-size: 15px;
+		line-height: 2;
+	}
+
+	/*CANDIDATOS - FINAL*/
+
+	.construccion {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
+/*TOTAL DEL DOC < 1200 PX ---------------------------------------- */
+
+@media screen and (max-width: 1199px) {
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	section {
+		background-color: black;
+		color: grey;
+	}
+
+	/*NAV - INICIO*/
+
+	.nav {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-color: #202020;
+		width: 100vw;
+		font-size: 20px;
+		position: absolute;
+		top: -210px;
+	}
+
+	.menu {
+		color: white;
+		padding: 3px;
+	}
+	.nav:hover {
+		position: relative;
+		top: 0;
+		transition: 0;
+	}
+
+
+	.nav ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding-left: 20px;
+		width: 100%;
+
+	}
+
+	.nav li {
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+	.nav a {
+		color: white;
+	}
+
+	.nav a:hover {
+		color: gray;	
+		transition: 0.4s;	
+		margin-left: 20px;
+	}
+
+	/*NAV - FINAL*/
+
+	/*FOOTER - INICIO*/
+
+	.footer {
+		display: flex;
+		background-color: #202020;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer a {
+		color: white;
+		padding: 5px;
+	}
+
+	.footer a:hover {
+		color: gray;
+		transition: 0.3s;
+	}
+
+	.footer__sections {
+		display: flex;
+		flex-direction: column;
+		color: white;
+	}
+
+	.footer__sections__secciones {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__deinteres {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer__sections__contacto {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.banner_footer img {
+		width: 100%;
+	}
+
+	.iconos {
+		display: flex;
+	}
+
+	.iconos i {
+		padding: 20px 20px 0 0;
+		font-size: 35px;
+	}
+
+	.footer__copyright {
+		margin-top: 15px;
+		width: 93vw;
+		padding: 15px;
+		font-size: 12px;
+		background-color: #000;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*FOOTER - FINAL*/
+
+	/*INDEX - INICIO*/
+
+	.banner_index img {
+		margin-top: 20px;
+		width: 100%;
+		height: 70%;
+	}
+
+	.parrafo_inicio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 5% 0 5%;
+	}
+
+	.parrafo_inicio div {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+
+	.parrafo_inicio div img {
+		height: 80%;
+		width: 80%;
+	}
+
+	.parrafo_inicio div p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+		padding: 5px
+	}
+
+	.desactivado b {
+		text-align: center;
+		color: orange;
+	}
+
+	/*INDEX - FINAL*/
+
+	/*ADOPCIONES - INICIO*/
+
+	.section_adopciones {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.adopciones_top {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 40px 5% 0 5%;
+
+	}
+
+	.adopciones_top p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+		margin: 0 0 0 0;
+		padding: 5px;
+	}
+
+	.adopciones_bottom {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: top;
+		margin: 0 5% 0 5%;
+	}
+
+
+	.form-container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 85vw;
+		padding: 10px;
+		margin-top: 20px;
+
+	}
+
+	.termcond {
+		margin-top: 20px;
+
+	}
+
+	.termcond b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		margin-top: 10px;
+
+	}
+
+	.form-container b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+
+		margin-left: -10px;
+	}
+
+	.termcond p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+		padding: 5px;
+
+
+	}
+
+	.form {
+		display: flex;
+		flex-direction: column;
+		margin: 20px 0;
+		width: 90;
+
+		margin-left: -10px;
+	}
+
+	.choose {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 150px 0 150px;
+	}
+
+	.form input {
+		font-size: 12px;
+		margin: 10px;
+		padding: 5px;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		color: white;
+	}
+
+	select {
+		font-size: 12px;
+		color: white;
+		border-radius: 5px;
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background-color: black;
+		margin: 10px;
+		padding: 10px;
+	}
+
+	option {
+		color: grey;
+		background-color: black;
+	}
+
+	.form input:focus {
+		outline: none;
+	}
+
+	::placeholder {
+		color: gray;
+	}
+
+	.form label {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form span {
+		margin: 10px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	.form select {
+		margin: 10px;
+		border-radius: 5px;
+	}
+
+	#submit {
+		font-size: 18px;
+		margin-top: 70px;
+		border: 1px solid darkgrey;
+		color: grey;
+	}
+
+	#submit:hover {
+		border: 1px solid white;
+		color: white;
+	}
+
+	.section_adopciones a {
+		color: lightgrey;
+	}
+
+	.section_adopciones a:hover {
+		color: white;
+		transition: 0.1s
+	}
+
+	/*ADOPCIONES - FINAL*/
+
+	/*CUIDALOS - INICIO*/
+
+	.section_cuidalos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.castracion {
+		display: flex;
+		flex-direction: column;
+		margin: 40px 5% 0 5%;
+	}
+
+	.section_cuidalos p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+	}
+
+	.section_cuidalos b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.cerramientos {
+		display: flex;
+		flex-direction: column;
+		margin: 50px 5% 0 5%;
+	}
+
+	.iframe1 {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.iframe1 iframe {
+		float: right;
+
+		margin-bottom: 10px;
+		margin-top: 15px;
+		width: 80%;
+	}
+
+	.iframe2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+
+	.iframe2 iframe {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 80%;
+	}
+
+	/*CUIDALOS - FINAL*/
+
+	/*DONACIONES - INICIO*/
+
+	.section_donaciones {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cuenta {
+		margin: 50px 5% 0 5%;
+	}
+
+	.donacion {
+		margin: 50px 5% 0 5%;
+	}
+
+	.cuenta p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+	}
+
+	.cuenta b {
+		text-align: justify;
+		line-height: 2;
+		font-size: 20px;
+	}
+
+	.donacion p {
+		text-align: justify;
+		line-height: 1.3;
+		font-size: 15px;
+		
+	}
+
+	.precios {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+	}
+
+	.precios img {
+		height: 200px;
+		width: 200px;
+		margin: 20px;
+	}
+
+	/*DONACIONES - FINAL*/
+
+	/*CANDIDATOS - INICIO*/
+
+	.section_candidatos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-center;
+		justify-content: center;
+		padding: 40px 15% 40px 15%;
+
+	}
+
+	.tarjeta {
+		margin: 20px;
+		padding: 0;
+		width: 200px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: black;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+
+	.tarjeta img {
+		height: 150px;
+		width: 150px;
+		margin: 15px;
+		border-radius: 10px;
+	}
+
+	.info {
+		margin: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		color: white;
+	}
+
+	.info b {
+		font-size: 20px;
+	}
+
+	.info p {
+		font-size: 15px;
+		line-height: 2;
+	}
+
+	/*CANDIDATOS - FINAL*/
+
+	.construccion {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
