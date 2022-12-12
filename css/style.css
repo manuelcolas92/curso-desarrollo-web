@@ -347,15 +347,43 @@ template {
     transition: 0.3s;
   }
   /*NAV - FINAL*/
+  /*NAV-LOGIN - INICIO*/
+  .menu {
+    display: none;
+  }
+  .nav-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 70px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav-login ul {
+    display: flex;
+  }
+  .nav-login ul a {
+    padding: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .nav-login ul a:hover {
+    color: #808080;
+    transition: 0.3s;
+  }
+  /*NAV-LOGIN - FINAL*/
   /*FOOTER - INICIO*/
   .footer {
     display: flex;
     background-color: #202020;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
   }
   .footer a {
     color: #FFFFFF;
     padding: 5px;
+    text-decoration: none;
   }
   .footer a:hover {
     color: #808080;
@@ -456,6 +484,7 @@ template {
     width: 500px;
     padding: 10px;
     margin: 10px 10px 10px 0;
+    font-family: "Montserrat", sans-serif;
   }
   .form-container b {
     text-align: justify;
@@ -704,6 +733,26 @@ option {
   align-items: center;
 }
 
+/*LOGIN - INICIO*/
+.section_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#carouselExampleIndicators img {
+  height: 400px;
+  width: 600px;
+}
+
+.form-container {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*LOGIN - FINAL*/
 /*TOTAL DEL DOC 1200 a 1920 PX ---------------------------------------- */
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
   body {
@@ -743,15 +792,40 @@ option {
     transition: 0.3s;
   }
   /*NAV - FINAL*/
+  /*NAV-LOGIN - INICIO*/
+  .nav-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 70px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav-login ul {
+    display: flex;
+  }
+  .nav-login ul a {
+    padding: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .nav-login ul a:hover {
+    color: #808080;
+    transition: 0.3s;
+  }
+  /*NAV-LOGIN - FINAL*/
   /*FOOTER - INICIO*/
   .footer {
     display: flex;
     background-color: #202020;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
   }
   .footer a {
     color: #FFFFFF;
     padding: 5px;
+    text-decoration: none;
   }
   .footer a:hover {
     color: #808080;
@@ -828,6 +902,7 @@ option {
   .section_adopciones {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
   }
   .adopciones_top {
     display: flex;
@@ -1110,6 +1185,7 @@ option {
     font-size: 20px;
     position: absolute;
     top: -210px;
+    font-family: "Montserrat", sans-serif;
   }
   .nav ul {
     display: flex;
@@ -1125,6 +1201,7 @@ option {
   }
   .nav ul li a {
     color: #FFFFFF;
+    text-decoration: none;
   }
   .nav ul li a:hover {
     color: #808080;
@@ -1141,16 +1218,61 @@ option {
     transition: 0;
   }
   /*NAV - FINAL*/
+  /*NAV-LOGIN - INICIO*/
+  .nav-login {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #202020;
+    width: 100%;
+    font-size: 20px;
+    position: absolute;
+    top: -241px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav-login ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .nav-login ul li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .nav-login ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .nav-login ul li a:hover {
+    color: #808080;
+    transition: 0.4s;
+    margin-left: 20px;
+  }
+  .menu-login {
+    color: #FFFFFF;
+    padding: 1px 3px;
+  }
+  .nav-login:hover {
+    position: relative;
+    top: 0;
+    transition: 0;
+  }
+  /*NAV-LOGIN - FINAL*/
   /*FOOTER - INICIO*/
   .footer {
     display: flex;
     background-color: #202020;
     flex-direction: column;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
   }
   .footer a {
     color: #FFFFFF;
     padding: 5px;
+    text-decoration: none;
   }
   .footer a:hover {
     color: #808080;
@@ -1162,16 +1284,19 @@ option {
     color: #FFFFFF;
   }
   .footer__sections-secciones {
+    margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: start;
   }
   .footer__sections-deinteres {
+    margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: start;
   }
   .footer__sections-contacto {
+    margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -1297,6 +1422,7 @@ option {
     margin: 20px 0;
     width: 90;
     margin-left: -10px;
+    font-family: "Montserrat", sans-serif;
   }
   .form input {
     font-size: 12px;
@@ -1551,6 +1677,28 @@ option {
     justify-content: center;
     align-items: center;
   }
+  /*LOGIN - INICIO*/
+  .section_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #carouselExampleIndicators {
+    top: 100px;
+  }
+  #carouselExampleIndicators img {
+    height: 200px;
+    width: 300px;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 250px;
+    margin-bottom: 60px;
+  }
+  /*LOGIN - FINAL*/
 }
 
 /*# sourceMappingURL=style.css.map */

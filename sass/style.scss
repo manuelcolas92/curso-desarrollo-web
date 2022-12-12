@@ -60,16 +60,51 @@ $naranja: #FFA500;
 
 	/*NAV - FINAL*/
 
+	/*NAV-LOGIN - INICIO*/
+
+	.menu {
+		display: none;
+	}
+
+	.nav-login {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $gris2;
+		height: 70px;
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+
+		ul {
+			display: flex;
+
+			a {
+				padding: 35px;
+				color: $blanco;
+				text-decoration: none;
+			}
+
+			a:hover {
+				color: $gris1;
+				transition: 0.3s;
+			}
+		}
+	}
+
+	/*NAV-LOGIN - FINAL*/
+
 	/*FOOTER - INICIO*/
 
 	.footer {
 		display: flex;
 		background-color: $gris2;
 		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
 
 		a {
 			color: $blanco;
 			padding: 5px;
+			text-decoration: none;
 		}
 
 		a:hover {
@@ -208,6 +243,7 @@ $naranja: #FFA500;
 		width: 500px;
 		padding: 10px;
 		margin: 10px 10px 10px 0;
+		font-family: 'Montserrat', sans-serif;
 
 		b {
 			text-align: justify;
@@ -490,6 +526,29 @@ option {
 	align-items: center;
 }
 
+/*LOGIN - INICIO*/
+
+.section_login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#carouselExampleIndicators {
+	img {
+		height: 400px;
+		width: 600px;
+	}
+}
+
+.form-container {
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*LOGIN - FINAL*/
 
 /*TOTAL DEL DOC 1200 a 1920 PX ---------------------------------------- */
 
@@ -545,16 +604,49 @@ option {
 
 	/*NAV - FINAL*/
 
+	/*NAV-LOGIN - INICIO*/
+
+	.nav-login {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $gris2;
+		height: 70px;
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+
+		ul {
+			display: flex;
+
+			a {
+				padding: 35px;
+				color: $blanco;
+				text-decoration: none;
+			}
+
+			a:hover {
+				color: $gris1;
+				transition: 0.3s;
+
+			}
+
+		}
+	}
+
+	/*NAV-LOGIN - FINAL*/
+
 	/*FOOTER - INICIO*/
 
 	.footer {
 		display: flex;
 		background-color: $gris2;
 		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
 
 		a {
 			color: $blanco;
 			padding: 5px;
+			text-decoration: none;
 		}
 
 		a:hover {
@@ -660,6 +752,7 @@ option {
 	.section_adopciones {
 		display: flex;
 		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	.adopciones_top {
@@ -1007,6 +1100,7 @@ option {
 		font-size: 20px;
 		position: absolute;
 		top: -210px;
+		font-family: 'Montserrat', sans-serif;
 
 		ul {
 			display: flex;
@@ -1022,6 +1116,7 @@ option {
 
 				a {
 					color: $blanco;
+					text-decoration: none;
 				}
 
 				a:hover {
@@ -1046,6 +1141,58 @@ option {
 
 	/*NAV - FINAL*/
 
+	/*NAV-LOGIN - INICIO*/
+
+	.nav-login {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-color: $gris2;
+		width: 100%;
+		font-size: 20px;
+		position: absolute;
+		top: -241px;
+		font-family: 'Montserrat', sans-serif;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			padding-left: 20px;
+			width: 100%;
+
+			li {
+				margin-left: 30px;
+				margin-bottom: 10px;
+
+				a {
+					color: $blanco;
+					text-decoration: none;
+				}
+
+				a:hover {
+					color: $gris1;
+					transition: 0.4s;
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+
+	.menu-login {
+		color: $blanco;
+		padding: 1px 3px;
+	}
+
+	.nav-login:hover {
+		position: relative;
+		top: 0;
+		transition: 0;
+	}
+
+	/*NAV-LOGIN - FINAL*/
+
 	/*FOOTER - INICIO*/
 
 	.footer {
@@ -1053,10 +1200,12 @@ option {
 		background-color: #202020;
 		flex-direction: column;
 		align-items: center;
+		font-family: 'Montserrat', sans-serif;
 
 		a {
 			color: $blanco;
 			padding: 5px;
+			text-decoration: none;
 		}
 
 		a:hover {
@@ -1073,18 +1222,21 @@ option {
 	}
 
 	.footer__sections-secciones {
+		margin: 20px 0 20px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
 	}
 
 	.footer__sections-deinteres {
+		margin: 20px 0 20px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
 	}
 
 	.footer__sections-contacto {
+		margin: 20px 0 20px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
@@ -1243,6 +1395,7 @@ option {
 		margin: 20px 0;
 		width: 90;
 		margin-left: -10px;
+		font-family: 'Montserrat', sans-serif;
 
 		input {
 			font-size: 12px;
@@ -1557,4 +1710,33 @@ option {
 		justify-content: center;
 		align-items: center;
 	}
+
+	/*LOGIN - INICIO*/
+
+.section_login {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: space-between;
+}
+
+#carouselExampleIndicators {
+	top: 100px;
+	img {
+		height: 200px;
+		width: 300px;
+	}
+}
+
+.form-container {
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-top: 250px;
+	margin-bottom: 60px;
+
+}
+
+/*LOGIN - FINAL*/
+
 }
