@@ -1,0 +1,23 @@
+{
+  "name": "paginaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelcolas92/desarrolloweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelcolas92/desarrolloweb/issues"
+  },
+  "homepage": "https://github.com/manuelcolas92/desarrolloweb#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
