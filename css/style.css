@@ -674,9 +674,11 @@ option {
 }
 
 .precios {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
   justify-content: center;
+  align-items: center;
 }
 .precios img {
   height: 300px;
@@ -1105,13 +1107,15 @@ option {
     font-size: 20px;
   }
   .precios {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
     justify-content: center;
+    align-items: center;
   }
   .precios img {
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
     margin: 25px;
   }
   /*DONACIONES - FINAL*/
@@ -1181,7 +1185,7 @@ option {
     justify-content: flex-start;
     align-items: flex-end;
     background-color: #202020;
-    width: 100vw;
+    width: 100%;
     font-size: 20px;
     position: absolute;
     top: -210px;
@@ -1569,9 +1573,11 @@ option {
     font-size: 15px;
   }
   .precios {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     justify-content: center;
+    align-items: center;
   }
   .precios img {
     height: 200px;
