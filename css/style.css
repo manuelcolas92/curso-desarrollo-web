@@ -485,6 +485,8 @@ template {
     padding: 10px;
     margin: 10px 10px 10px 0;
     font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: -85px;
   }
   .form-container b {
     text-align: justify;
@@ -930,6 +932,8 @@ option {
     width: 500px;
     padding: 10px;
     margin: 10px 10px 10px -5px;
+    position: relative;
+    top: -90px;
   }
   .form-container b {
     text-align: justify;
@@ -1163,6 +1167,24 @@ option {
     flex-direction: column;
     align-items: center;
   }
+  /*LOGIN - INICIO*/
+  .section_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+  }
+  #carouselExampleIndicators img {
+    height: 400px;
+    width: 600px;
+  }
+  .form-container {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  /*LOGIN - FINAL*/
 }
 /*TOTAL DEL DOC < 1200 PX ---------------------------------------- */
 @media screen and (max-width: 1199px) {
@@ -1387,20 +1409,20 @@ option {
   .adopciones_bottom {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
-    align-content: top;
+    justify-content: center;
+    align-items: center;
     margin: 0 5% 0 5%;
   }
   .form-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 85vw;
     padding: 10px;
-    margin-top: 20px;
+    position: relative;
+    top: -230px;
   }
   .form-container b {
-    text-align: justify;
+    text-align: center;
     line-height: 2;
     font-size: 20px;
     margin-left: -10px;
@@ -1574,7 +1596,7 @@ option {
   }
   .precios {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: center;
     align-items: center;
@@ -1582,16 +1604,15 @@ option {
   .precios img {
     height: 200px;
     width: 200px;
-    margin: 20px;
+    margin: 50px;
   }
   /*DONACIONES - FINAL*/
   /*CANDIDATOS - INICIO*/
   .section_candidatos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-center;
     justify-content: center;
-    padding: 40px 15% 40px 15%;
+    padding: 40px 5% 40px 5%;
   }
   .tarjeta {
     margin: 20px;
@@ -1625,6 +1646,7 @@ option {
     line-height: 2;
   }
   /*CANDIDATOS - FINAL*/
+  /*FOOTER - INICIO*/
   .construccion {
     display: flex;
     flex-direction: column;
@@ -1683,12 +1705,14 @@ option {
     justify-content: center;
     align-items: center;
   }
+  /*FOOTER - FINAL*/
   /*LOGIN - INICIO*/
   .section_login {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
   }
   #carouselExampleIndicators {
     top: 100px;
@@ -1701,8 +1725,7 @@ option {
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 250px;
-    margin-bottom: 60px;
+    margin-top: 400px;
   }
   /*LOGIN - FINAL*/
 }

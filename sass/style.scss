@@ -244,6 +244,8 @@ $naranja: #FFA500;
 		padding: 10px;
 		margin: 10px 10px 10px 0;
 		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: -85px;
 
 		b {
 			text-align: justify;
@@ -784,6 +786,8 @@ option {
 		width: 500px;
 		padding: 10px;
 		margin: 10px 10px 10px -5px;
+		position: relative;
+		top: -90px;
 
 		b {
 			text-align: justify;
@@ -946,6 +950,7 @@ option {
 		line-height: 2;
 		font-size: 20px;
 
+
 		iframe {
 			float: right;
 			margin-left: 35px;
@@ -1070,6 +1075,31 @@ option {
 		flex-direction: column;
 		align-items: center;
 	}
+
+	/*LOGIN - INICIO*/
+
+	.section_login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#carouselExampleIndicators {
+		img {
+			height: 400px;
+			width: 600px;
+		}
+	}
+
+	.form-container {
+		position: relative;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	/*LOGIN - FINAL*/
 }
 
 /*TOTAL DEL DOC < 1200 PX ---------------------------------------- */
@@ -1350,8 +1380,8 @@ option {
 	.adopciones_bottom {
 		display: flex;
 		flex-direction: column-reverse;
-		justify-content: space-around;
-		align-content: top;
+		justify-content: center;
+		align-items: center;
 		margin: 0 5% 0 5%;
 	}
 
@@ -1359,16 +1389,15 @@ option {
 	.form-container {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
 		width: 85vw;
 		padding: 10px;
-		margin-top: 20px;
+		position: relative;
+		top: -230px;
 
 		b {
-			text-align: justify;
+			text-align: center;
 			line-height: 2;
 			font-size: 20px;
-
 			margin-left: -10px;
 		}
 
@@ -1578,7 +1607,7 @@ option {
 
 	.precios {
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto;
 		grid-template-rows: auto auto;
 		justify-content: center;
 		align-items: center;
@@ -1586,7 +1615,7 @@ option {
 		img {
 			height: 200px;
 			width: 200px;
-			margin: 20px;
+			margin: 50px;
 		}
 	}
 
@@ -1597,9 +1626,8 @@ option {
 	.section_candidatos {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-center;
 		justify-content: center;
-		padding: 40px 15% 40px 15%;
+		padding: 40px 5% 40px 5%;
 	}
 
 	.tarjeta {
@@ -1640,18 +1668,15 @@ option {
 
 	/*CANDIDATOS - FINAL*/
 
+	/*FOOTER - INICIO*/
+
 	.construccion {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-
-
-
-
-
-		.footer {
+	.footer {
 		display: flex;
 		background-color: $gris2;
 		flex-direction: column;
@@ -1717,32 +1742,34 @@ option {
 		align-items: center;
 	}
 
+	/*FOOTER - FINAL*/
+
 	/*LOGIN - INICIO*/
 
-.section_login {
-	display: flex;
-	flex-direction: column;
-	align-items:center;
-	justify-content: space-between;
-}
-
-#carouselExampleIndicators {
-	top: 100px;
-	img {
-		height: 200px;
-		width: 300px;
+	.section_login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		font-family: 'Montserrat', sans-serif;
 	}
-}
 
-.form-container {
-	display: flex;
-	align-items: center;
-	position: relative;
-	margin-top: 250px;
-	margin-bottom: 60px;
+	#carouselExampleIndicators {
+		top: 100px;
 
-}
+		img {
+			height: 200px;
+			width: 300px;
+		}
+	}
 
-/*LOGIN - FINAL*/
+	.form-container {
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-top: 400px;
+	}
+
+	/*LOGIN - FINAL*/
 
 }
